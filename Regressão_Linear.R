@@ -83,4 +83,10 @@ modelo1 <- lm(successful$backers~successful$usd.pledged,successful)
 summary(modelo1)
 plot(modelo1)
 
+cor(successful$goal,successful$usd.pledged)
+cor.test(successful$goal,successful$usd.pledged)
+modelo2 <- lm(successful$goal~successful$usd.pledged,successful)
+summary(modelo2)
+plot(modelo2)
+
 
