@@ -1,1 +1,3 @@
-# Regress-oLinear
+# RegressaoLinear
+
+Trabalho Intermediário Estatística Preditiva
